@@ -1,10 +1,9 @@
-Murat Gulcelik 
+**Murat Gulcelik 
 COMS 3102 - FINAL 
 Professor Shoaib Ahamed
 May 2024
-SocialWebsite - LinkLite
+SocialWebsite - LinkLite**
 
-**Description: **
 
 I started creating this website because of my personal interactions with social media. I realized that I used up so much time on apps like Instagram and Snapchat in college to the point where I decided to delete them to see if I become happier, and I did, for the most part. I think there is a huge benefit to social media as it lets me connect with people everywhere and make sure that I stay in touch with those that I love around the world, back home, and in New York City. I definitely believe in the power of social media to positively effect the world. 
 

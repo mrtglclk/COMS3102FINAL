@@ -1,0 +1,390 @@
+/* Color Palette */
+:root {
+  --primary-color: rgb(60, 252, 17);  /* Neon green */
+  --border-color: rgb(243, 2, 2);   /* Neon red */
+  --background-highlight: #121212; /* Dark background */
+  --text-color: #FFF;     /* White text */
+  --button-hover: #ff02f2;   /* Neon pink */
+}
+
+/* General Styles */
+body {
+  background-color: #1A1A1A; /* Darker background */
+  color: #FFF; /* White text */
+  font-family: 'Courier New', monospace; /* Monospace font */
+  line-height: 1.4; /* Slightly reduced line height */
+  margin: 0;
+  padding: 0;
+  font-size: 20px; /* Larger font size */
+}
+
+/* Navigation and Header */
+nav {
+  background-color: #121212; /* Dark background */
+  border-bottom: 3px solid #FF0303; /* Neon red border */
+  padding: 10px 20px;
+}
+
+.menu-icon {
+  display: block;
+  cursor: pointer;
+  font-size: 26px; /* Slightly larger font size */
+  color: #3CFC11; /* Neon green */
+}
+
+@media (min-width: 768px) {
+  ul, .menu-icon {
+    display: flex;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  align-items: center;
+}
+
+ul li {
+  padding: 8px 12px; /* Slightly reduced padding */
+}
+
+ul li a, ul li button {
+  color: #3CFC11; /* Neon green */
+  text-decoration: none;
+  font-size: 18px; /* Slightly larger font size */
+}
+
+nav button {
+  background-color: #FF0303; /* Neon red */
+  color: #FFF; /* White text */
+  border-radius: 4px;
+  padding: 8px 14px; /* Slightly reduced padding */
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+nav button:hover {
+  background-color: #ff02f2; /* Neon pink */
+}
+
+/* Posts and Containers */
+.home-container{
+  border: 4px solid #3CFC11; /* Neon green border */
+  background-color: #121212; /* Dark background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px; /* Increased margin */
+  padding: 20px; /* Increased padding */
+  border-radius: 8px;
+}
+
+/* Add this to your CSS file */
+.comment-container {
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Add padding for spacing */
+  margin-top: 10px; /* Add margin for separation from other elements */
+}
+
+
+
+
+.post {
+  margin-bottom: 20px; /* Increased margin bottom */
+  border-bottom: 1px solid #3CFC11; /* Neon green border between posts */
+}
+
+.post:last-child {
+  border-bottom: none; /* Remove border from last post */
+}
+
+.post:hover {
+  box-shadow: 0 30px 30px #3CFC11; /* Neon green shadow */
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 15px; /* Increased padding */
+  border-bottom: 1px solid #eee;
+}
+.post-border {
+  border: 5px solid #ccc; /* Add your desired border style */
+  padding: 10px; /* Add padding for spacing */
+  margin-bottom: 20px; /* Add margin for spacing between posts */
+}
+
+
+.post-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px; /* Increased margin */
+}
+
+.post p {
+  color: #FFF; /* White text */
+  padding: 20px; /* Increased padding */
+  font-size: 18px; /* Larger font size */
+  line-height: 1.6; /* Increased line height for better readability */
+}
+
+.post-actions {
+  padding: 15px; /* Increased padding */
+  display: flex;
+  justify-content: space-between;
+}
+
+.like-button,
+.comment-button,
+.delete-button {
+  border: none;
+  background: none;
+  color: #3CFC11; /* Neon green */
+  cursor: pointer;
+  font-size: 16px; /* Larger font size */
+}
+
+.delete-button {
+  background-color: #FF0303; /* Neon red */
+  color: #FFF; /* White text */
+  padding: 8px 12px; /* Increased padding */
+  border-radius: 4px;
+}
+
+.delete-button:hover {
+  background-color: #ff02f2; /* Neon pink */
+}
+
+
+
+/* Enhance Forms for a Gaming Look */
+form {
+  background-color: #222; /* Dark background for form */
+  border: 2px solid var(--primary-color);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px var(--primary-color), inset 0 0 10px var(--primary-color);
+}
+
+
+
+
+
+
+/* Custom Styles for Input Fields */
+input[type="text"], textarea, input[type="file"], button {
+  background-color: #333;
+  border: 1px solid #555;
+  color: var(--primary-color);
+  font-family: 'Courier New', monospace;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+input[type="text"]:focus, textarea:focus, input[type="file"]:focus, button:focus {
+  border-color: var(--button-hover);
+  box-shadow: 0 0 5px var(--button-hover);
+}
+
+button {
+  background-color: #444;
+  border: 1px solid var(--primary-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: var(--primary-color);
+  color: #000;
+  cursor: pointer;
+}
+
+/* Error Message Styles */
+div[style*="color: red"] {
+  background-color: #300;
+  border-left: 5px solid var(--primary-color);
+  padding: 5px;
+  margin-top: 10px;
+}
+
+/* File Input Customization */
+input[type="file"] {
+  color: var(--text-color); /* Ensure visibility */
+}
+
+/* Typography Enhancements */
+h1, h2, h3, .section-title {
+  color: var(--text-color);
+}
+
+.section-title {
+  background-color: var(--background-highlight);
+  padding: 10px;
+  border-bottom: 3px solid var(--border-color);
+}
+
+
+
+
+/* Create Post Form Styles */
+form {
+  background-color: #222; /* Dark background for focus */
+  border: 3px solid var(--neon-effect); /* Neon border for gaming effect */
+  padding: 20px;
+  border-radius: 12px; /* Rounded corners for a sleek look */
+  box-shadow: 0 0 20px var(--neon-effect), inset 0 0 15px var(--neon-effect); /* Inner and outer neon glow */
+  margin: 30px auto; /* Center the form with more margin */
+  width: 80%; /* Wider form for better readability */
+}
+
+input[type="text"], textarea, input[type="file"] {
+  background-color: #333; /* Darker field backgrounds for contrast */
+  border: 2px solid #555; /* Subtle border adjustments */
+  color: #00ff66; /* Bright neon text for inputs */
+  padding: 15px; /* Larger padding for better interaction */
+  margin-top: 15px; /* Space between inputs */
+  width: calc(100% - 30px); /* Full width accounting padding */
+  box-sizing: border-box; /* Includes padding and border in the width */
+}
+
+input[type="file"] {
+  cursor: pointer; /* Indicates it's clickable */
+}
+
+
+
+
+/* Doing some css for createpost*/
+button {
+  background-color: var(--neon-effect); /* Neon color for the button */
+  color: #ffffff; /* Dark text for contrast */
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px; /* Larger font size for readability */
+  letter-spacing: 1px; /* Spaced out letters for a techy feel */
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer; /* Indicates the button is clickable */
+  display: block; /* Makes the button take full width */
+  width: 100%; /* Full width button */
+  margin-top: 20px; /* Space above the button */
+}
+
+button:hover {
+  background-color: #ff005e; /* Neon pink on hover for a dynamic change */
+  color: #fff; /* White text on hover for visibility */
+}
+
+/* Error Message Styling */
+div[style*="color: red"] {
+  background-color: #440000; /* Dark background for error messages */
+  border-left: 5px solid #ff005e; /* Neon pink accent on the left */
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px; /* Increased font size for readability */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Login form styles */
+.login-container {
+  background-color: #333; /* Dark background for emphasis */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #0f0; /* Neon green glow */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-input {
+  background-color: #222; /* Darker field backgrounds */
+  border: 2px solid #555;
+  color: #0f0; /* Neon green text */
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.login-button {
+  background-color: #000;
+  color: #0f0;
+  border: 1px solid #0f0; /* Neon green border */
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0f0;
+  color: #000;
+}
+
+.login-input:focus {
+  border-color: #ff005e; /* Neon pink for focus */
+  box-shadow: 0 0 10px #ff005e; /* Outer glow for focus */
+}
+
+/* New user form styles */
+.newuser-container {
+  background-color: #333; /* Dark background for emphasis */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #0f0; /* Neon green glow */
+}
+
+.newuser-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.newuser-input {
+  background-color: #222; /* Darker field backgrounds */
+  border: 2px solid #555;
+  color: #0f0; /* Neon green text */
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.newuser-button {
+  background-color: #000;
+  color: #0f0;
+  border: 1px solid #0f0; /* Neon green border */
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.newuser-button:hover {
+  background-color: #0f0;
+  color: #000;
+}
+
+.newuser-input:focus {
+  border-color: #ff005e; /* Neon pink for focus */
+  box-shadow: 0 0 10px #ff005e; /* Outer glow for focus */
+}
+

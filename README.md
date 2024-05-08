@@ -85,27 +85,22 @@ git clone <repository-url>
 Replace <repository-url> with the URL of the repository.
 
 Install Dependencies
+
 Navigate to the project directory and install the necessary dependencies for both the frontend and backend.
 
 Backend Dependencies
-Move into the backend directory:
-bash
-Copy code
-cd backend
-Install dependencies:
-bash
-Copy code
-npm install
+
+Move into the backend directory: bash Copy code cd backend
+
+Install dependencies: bash Copy code npm install
+
 Frontend Dependencies
-Move into the frontend directory:
-bash
-Copy code
-cd ../frontend
-Install dependencies:
-bash
-Copy code
-npm install
+Move into the frontend directory: bash Copy code cd ../frontend
+
+Install dependencies: bash Copy code npm install
+
 Configure Environment Variables
+
 Backend Configuration
 Create a .env file in the backend directory.
 Add the necessary environment variables:
@@ -115,20 +110,29 @@ DATABASE_URL=your_mongodb_connection_string
 FIREBASE_API_KEY=your_firebase_api_key
 FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
 Replace the placeholders with your actual MongoDB and Firebase configuration details.
+
 Frontend Configuration
 Ensure that the Firebase configuration is correctly set up in the Firebase initialization file (firebase.js).
+
 Run the Application
+
 Start the Backend Server
+
 In the backend directory, start the server:
 bash
 Copy code
 npm start
+
 Start the Frontend Application
+
 Open a new terminal window, navigate to the frontend directory, and start the React application:
 bash
 Copy code
 npm start
+
 The frontend should now be accessible at http://localhost:3000.
 Access the Application
+
 Open a web browser and go to http://localhost:3000 to start using the application.
+
 By following these steps, you should have a fully functional local development environment for the LinkLiteWeb project. Enjoy exploring and extending the application!

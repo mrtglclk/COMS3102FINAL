@@ -13,3 +13,82 @@ However, I also believe that poeple spend too much time on social media to the p
 This is only the beginning of my project and I plan on continuing it, as I am taking UI and have taken a class on Mobile App Development as well. 
 
 
+inkLiteWeb Project
+
+Introduction
+
+LinkLiteWeb is a full-stack social media app designed so that users can interact through posts, comments, and likes.. It is built with React and Node.js and integrated with Firebase for backend services and MongoDB as a database for storage. 
+
+Technologies
+
+This project is built using the following technologies:
+
+React: Frontend framework for building user interfaces.
+Node.js: JavaScript runtime for the backend server.
+Firebase: Authentication and database services.
+React Router: Library for handling routing in React.
+CSS: For styling components.
+MONGODB: For database services
+
+Backend
+Contains the Node.js server and API routes:
+
+models: Mongoose schemas for database models.
+User.js: Defines the user schema.
+Post.js: Defines the post schema.
+routes: Server routes for handling API requests.
+authRoutes.js: Routes related to user authentication.
+postRoutes.js: Routes for creating, fetching, and managing posts.
+
+Frontend
+Contains all React components and the client-side logic:
+
+src: Main source directory for React components.
+App.js: Root component setting up the router and global state.
+AuthContext.js: Manages authentication state across the app.
+FirebaseAuth.js: Handles Firebase authentication processes.
+Navbar.js: Navigation bar for the application.
+Home.js, Feed.js, Profile.js: Page components.
+CreatePost.js: Allows users to create new posts.
+Post.js: Displays individual posts.
+SessionTimer.js: Manages session timeouts to log out users automatically!! (working on a better design)
+Setup and Installation
+
+Follow these steps to get your development environment set up:
+
+Clone the repository
+bash
+Copy code
+git clone <repository-url>
+Install backend dependencies
+Navigate to the backend directory and install dependencies:
+bash
+Copy code
+cd backend
+npm install
+Install frontend dependencies
+Navigate to the frontend directory and install dependencies:
+bash
+Copy code
+cd ../frontend
+npm install
+Set up environment variables
+Create a .env file in the backend directory and set up the necessary environment variables for database connections and Firebase configuration.
+Run the application
+Start the backend server:
+sql
+Copy code
+npm start
+In a new terminal, start the frontend:
+bash
+Copy code
+cd frontend
+npm start
+Features
+
+User Authentication: Register, log in, and log out users.
+Post Management: Users can create, edit, delete, and view posts.
+Comments and Likes: Users can comment on posts and like them.
+Real-time Updates: Leveraging Firebase for real-time data synchronization.
+
+Feel free to explore the application and contribute to its development!

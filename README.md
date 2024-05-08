@@ -52,39 +52,6 @@ Home.js, Feed.js, Profile.js: Page components.
 CreatePost.js: Allows users to create new posts.
 Post.js: Displays individual posts.
 SessionTimer.js: Manages session timeouts to log out users automatically!! (working on a better design)
-Setup and Installation
-
-Follow these steps to get your development environment set up:
-
-Clone the repository
-bash
-Copy code
-git clone <repository-url>
-Install backend dependencies
-Navigate to the backend directory and install dependencies:
-bash
-Copy code
-cd backend
-npm install
-Install frontend dependencies
-Navigate to the frontend directory and install dependencies:
-bash
-Copy code
-cd ../frontend
-npm install
-Set up environment variables
-Create a .env file in the backend directory and set up the necessary environment variables for database connections and Firebase configuration.
-Run the application
-Start the backend server:
-sql
-Copy code
-npm start
-In a new terminal, start the frontend:
-bash
-Copy code
-cd frontend
-npm start
-Features
 
 User Authentication: Register, log in, and log out users.
 Post Management: Users can create, edit, delete, and view posts.
@@ -92,3 +59,76 @@ Comments and Likes: Users can comment on posts and like them.
 Real-time Updates: Leveraging Firebase for real-time data synchronization.
 
 Feel free to explore the application and contribute to its development!
+
+
+
+
+
+
+
+
+
+
+Setup and Installation
+
+Follow these steps to set up and run the LinkLiteWeb project on your local machine:
+
+Prerequisites
+Node.js and npm installed (download here)
+Git installed (download here)
+Clone the Repository
+First, clone the repository to your local machine using the following command:
+
+bash
+Copy code
+git clone <repository-url>
+Replace <repository-url> with the URL of the repository.
+
+Install Dependencies
+Navigate to the project directory and install the necessary dependencies for both the frontend and backend.
+
+Backend Dependencies
+Move into the backend directory:
+bash
+Copy code
+cd backend
+Install dependencies:
+bash
+Copy code
+npm install
+Frontend Dependencies
+Move into the frontend directory:
+bash
+Copy code
+cd ../frontend
+Install dependencies:
+bash
+Copy code
+npm install
+Configure Environment Variables
+Backend Configuration
+Create a .env file in the backend directory.
+Add the necessary environment variables:
+makefile
+Copy code
+DATABASE_URL=your_mongodb_connection_string
+FIREBASE_API_KEY=your_firebase_api_key
+FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+Replace the placeholders with your actual MongoDB and Firebase configuration details.
+Frontend Configuration
+Ensure that the Firebase configuration is correctly set up in the Firebase initialization file (firebase.js).
+Run the Application
+Start the Backend Server
+In the backend directory, start the server:
+bash
+Copy code
+npm start
+Start the Frontend Application
+Open a new terminal window, navigate to the frontend directory, and start the React application:
+bash
+Copy code
+npm start
+The frontend should now be accessible at http://localhost:3000.
+Access the Application
+Open a web browser and go to http://localhost:3000 to start using the application.
+By following these steps, you should have a fully functional local development environment for the LinkLiteWeb project. Enjoy exploring and extending the application!

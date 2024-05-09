@@ -159,12 +159,20 @@ By following these steps, you should have a fully functional local development e
 [This screenshot showcases the app's home page, featuring a feed of posts and navigation options.]
 
 ## Login Page
-![Login Page](/LoginPage.png)
+![Login Page](/LogInPage.png)
 [This screenshot exhibits the login page where users can input their credentials to access the app.]
 
 ## New User Page
 ![New User Page](/NewUserPage.png)
 [This screenshot presents the new user registration page, allowing users to create an account by providing necessary information.]
+
+
+
+
+
+
+
+
 
 
 

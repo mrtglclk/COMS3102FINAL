@@ -1,8 +1,8 @@
-**Murat Gulcelik 
-COMS 3102 - FINAL 
-Professor Shoaib Ahamed
-May 2024
-SocialWebsite - LinkLite**
+## Murat Gulcelik 
+## COMS 3102 - FINAL 
+## Professor Shoaib Ahamed
+## May 2024
+## SocialWebsite - LinkLite
 
 
 I started creating this website because of my personal interactions with social media. I realized that I used up so much time on apps like Instagram and Snapchat in college to the point where I decided to delete them to see if I become happier, and I did, for the most part. I think there is a huge benefit to social media as it lets me connect with people everywhere and make sure that I stay in touch with those that I love around the world, back home, and in New York City. I definitely believe in the power of social media to positively effect the world. 
@@ -13,7 +13,7 @@ This is only the beginning of my project and I plan on continuing it, as I am ta
 
 
 
-**Introduction**
+### **Introduction**
 
 LinkLiteWeb is a full-stack social media app designed so that users can interact through posts, comments, and likes.. It is built with React and Node.js and integrated with Firebase for backend services and MongoDB as a database for storage. 
 
@@ -28,7 +28,7 @@ React Router: Library for handling routing in React.
 CSS: For styling components.
 MONGODB: For database services
 
-**Backend**
+## **Backend**
 Contains the Node.js server and API routes:
 
 models: Mongoose schemas for database models.
@@ -38,7 +38,7 @@ routes: Server routes for handling API requests.
 authRoutes.js: Routes related to user authentication.
 postRoutes.js: Routes for creating, fetching, and managing posts.
 
-**Frontend**
+## **Frontend**
 Contains all React components and the client-side logic:
 
 src: Main source directory for React components.
@@ -56,7 +56,7 @@ Post Management: Users can create, edit, delete, and view posts.
 Comments and Likes: Users can comment on posts and like them.
 Real-time Updates: Leveraging Firebase for real-time data synchronization.
 
-**Feel free to explore the application and contribute to its development!**
+ **Feel free to explore the application and contribute to its development!**
 
 
 
@@ -67,11 +67,11 @@ Real-time Updates: Leveraging Firebase for real-time data synchronization.
 
 
 
-**Setup and Installation**
+## ## **Setup and Installation**
 
 Follow these steps to set up and run the LinkLiteWeb project on your local machine:
-**
-Prerequisites**
+
+## **Prerequisites**
 Node.js and npm installed (download here)
 Git installed (download here)
 Clone the Repository
@@ -82,24 +82,24 @@ Copy code
 git clone <repository-url>
 Replace <repository-url> with the URL of the repository.
 
-**Install Dependencies**
+## **Install Dependencies**
 
 Navigate to the project directory and install the necessary dependencies for both the frontend and backend.
 
-**Backend Dependencies**
+## **Backend Dependencies**
 
 Move into the backend directory: bash Copy code cd backend
 
 Install dependencies: bash Copy code npm install
-**
-Frontend Dependencies**
+
+## **Frontend Dependencies**
 Move into the frontend directory: bash Copy code cd ../frontend
 
 Install dependencies: bash Copy code npm install
 
-**Configure Environment Variables**
+## **Configure Environment Variables**
 
-**Backend Configuration**
+## **Backend Configuration**
 Create a .env file in the backend directory.
 Add the necessary environment variables:
 makefile
@@ -109,19 +109,18 @@ FIREBASE_API_KEY=your_firebase_api_key
 FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
 Replace the placeholders with your actual MongoDB and Firebase configuration details.
 
-**Frontend Configuration**
+## **Frontend Configuration**
 Ensure that the Firebase configuration is correctly set up in the Firebase initialization file (firebase.js).
 
-**Run the Application**
-**
-Start the Backend Server
-**
+## **Run the Application**
+
+**Start the Backend Server**
 In the backend directory, start the server:
 bash
 Copy code
 npm start
 
-**Start the Frontend Application**
+## **Start the Frontend Application**
 
 Open a new terminal window, navigate to the frontend directory, and start the React application:
 bash
@@ -131,8 +130,43 @@ npm start
 The frontend should now be accessible at http://localhost:3000.
 
 
-**Access the Application**
+## **Access the Application**
 
 Open a web browser and go to http://localhost:3000 to start using the application.
 
 By following these steps, you should have a fully functional local development environment for the LinkLiteWeb project. Enjoy exploring and extending the application!
+
+
+
+
+
+
+
+
+
+### RUNTHROUGH WITH IMAGES
+
+## Create Post Page
+![Create Post Page](/path/to/CreatePostPage.png)
+[This screenshot shows the "Create Post" page of the app. Users can input text and media to create a new post.]
+
+## Firebase Page
+![Firebase Page](/path/to/FirebasePage.png)
+[This screenshot displays the Firebase integration page, indicating successful connection and data synchronization with the Firebase backend.]
+
+## Home Page
+![Home Page](/path/to/HomePage.png)
+[This screenshot showcases the app's home page, featuring a feed of posts and navigation options.]
+
+## Login Page
+![Login Page](/path/to/LoginPage.png)
+[This screenshot exhibits the login page where users can input their credentials to access the app.]
+
+## New User Page
+![New User Page](/path/to/NewUserPage.png)
+[This screenshot presents the new user registration page, allowing users to create an account by providing necessary information.]
+
+
+
+
+

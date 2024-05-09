@@ -147,23 +147,23 @@ By following these steps, you should have a fully functional local development e
 ### RUNTHROUGH WITH IMAGES
 
 ## Create Post Page
-![Create Post Page](/path/to/CreatePostPage.png)
+![Create Post Page](/CreatePostPage.png)
 [This screenshot shows the "Create Post" page of the app. Users can input text and media to create a new post.]
 
 ## Firebase Page
-![Firebase Page](/path/to/FirebasePage.png)
+![Firebase Page](/FirebasePage.png)
 [This screenshot displays the Firebase integration page, indicating successful connection and data synchronization with the Firebase backend.]
 
 ## Home Page
-![Home Page](/path/to/HomePage.png)
+![Home Page](/HomePage.png)
 [This screenshot showcases the app's home page, featuring a feed of posts and navigation options.]
 
 ## Login Page
-![Login Page](/path/to/LoginPage.png)
+![Login Page](/LoginPage.png)
 [This screenshot exhibits the login page where users can input their credentials to access the app.]
 
 ## New User Page
-![New User Page](/path/to/NewUserPage.png)
+![New User Page](/NewUserPage.png)
 [This screenshot presents the new user registration page, allowing users to create an account by providing necessary information.]
 
 
